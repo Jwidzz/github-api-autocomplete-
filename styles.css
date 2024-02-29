@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #C4C4C4;
+  ;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  margin-bottom: 30px;
+}
+
+.repos-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.search-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px
+}
+
+.search-input {
+  border: none;
+  width: 500px;
+  height: 61px;
+  background-color: #FFFFFF;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.repos {
+  list-style: none;
+}
+
+.repo {
+  box-sizing: border-box;
+  width:500px;
+  height:44px;
+  border: 2px black solid;
+  background-color: #E3E3E3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.repo-card {
+  width: 503px;
+  height: 101px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #E27BEB;
+  border: 1px black solid;
+}
+
+.repo-card-info {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.close-button{
+  position: relative;
+  bottom: 60px;
+  left: 450px;
+  font-size: 40px;
+  color: #FF0000;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
